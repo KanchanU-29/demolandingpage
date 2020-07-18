@@ -1,0 +1,89 @@
+*{box-sizing:border-box;
+}
+body{
+font-size:16px;
+font-family: Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+line-height: 1.5;
+background-color: rgb(242,253,255);
+}
+h1{
+    text-align:center;
+    font-weight: bold;
+    padding-top:2em;
+    font-size:2.5em;
+    margin-top:0px;
+    padding-top:10px;
+    color:blue;
+    background-color: lightsalmon;
+}
+h2{
+    text-align:center;
+    font-size:1.8em;
+   
+}
+#logo-vend{
+position:absolute;
+float:left;
+left:600px;
+top:0px;
+margin-top:30px;
+}
+#list-cart{
+    position:absolute;
+    left:520px;
+    top:170px;
+     padding-top:30px;
+     margin-top:50px;
+     max-width:20%;
+     height: auto;
+     display: inline-block;
+     
+}
+.image-wrapper{
+  text-align:center;
+
+}
+.title1{
+font-size:2.5rem;
+font-weight: bolder;
+color:white;
+background-color: green;
+text-align: center;
+padding:20px;
+margin-bottom: 40px;
+}
+.container{
+    text-align:center;
+    margin-top:30px;
+    padding-left: 300px;
+    padding-right:300px;
+    
+   
+}
+.container-heading{
+    width:80%;
+    margin:0 auto;
+
+}
+label{
+    float:left;
+}
+.start{
+    background-color:green;
+    color:white;
+    margin:10px ;
+    width:auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+}
+
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 2px 0;
+        display: inline-block;
+        border: none;
+        background: lightgrey;
+}
+ 
